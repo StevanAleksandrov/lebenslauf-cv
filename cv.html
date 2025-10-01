@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stevan Aleksandrov - Webentwickler | Lebenslauf & Projekte</title>
+  <meta name="description" content="Webentwickler (Frontend/Backend). Moderne Web-Apps, saubere UI, Performance. Ausgewähltes Projekt: Leonal - KMU Webseite.">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/app.js" defer></script>
+</head>
+<body class="cv">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Sektionen">
+      <a href="#about">Über mich</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#certs">Zertifikate</a>
+      <a href="#links">Links</a>
+    </nav>
+
+    <div class="header-info">
+      <h1 class="name">Stevan Aleksandrov<span class="role">Webentwickler</span></h1>
+
+      <p class="tech-inline">HTML • CSS • JavaScript • Vue • PHP • SQL</p>
+
+      <img class="avatar" src="./img/Aleksandrov_img.jpg"  alt="Porträt von Stevan Aleksandrov" width="180" height="180">
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <p class="subline">Saubere, performante Frontends und solide Backends — Fokus auf UX.</p>
+        <div class="actions">
+          <a href="#" class="btn btn--primary">PDF-Lebenslauf herunterladen</a>
+          <a href="#" class="btn btn--ghost">GitHub ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT -->
+    <section class="featured" aria-labelledby="proj-title">
+      <div class="container">
+        <h2 id="proj-title" class="proj-title">Ausgewähltes Projekt</h2>
+
+        <article class="project-card">
+          <figure class="project-media">
+            <video class="project-video"
+          controls
+          preload="metadata"
+          poster="./img/Leonal_img.png"
+          playsinline
+          aria-describedby="leonal-caption">
+              <source src="./video/Video_Leonal.mp4" type="video/mp4">
+              <img src="./img/Leonal_img.png" alt="Screenshot der Leonal Firmenwebsite">
+            </video>
+            <figcaption id="leonal-caption" class="visually-hidden">
+              Kurzes UI-Demo-Video der Leonal-Seite (Scroll & Navigation).
+            </figcaption>
+          </figure>
+
+          <div class="project-body">
+            <h3>Leonal - Küchenmontage & Transporte (KMU Website)</h3>
+            <p>Responsive Unternehmensseite (DE) mit Fokus auf Geschwindigkeit, klare CTAs und SEO-Basics.
+            Enthält Kontaktinfos, Google Maps und Leistungsübersicht.</p>
+            <p class="note">Status: In Arbeit — Seite noch nicht fertig.</p>
+
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>SEO</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="#" class="btn btn--primary">Live ansehen</a>
+              <a href="#" class="btn btn--ghost">Code auf GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">Über mich</h2>
+        <p>Ich bin gelernter Elektriker für Informations- und Systemtechnik, habe jedoch schon seit längerer Zeit ein starkes Interesse an der Webentwicklung. Derzeit beherrsche ich die wichtigsten Frontend-Technologien und arbeite kontinuierlich daran, mein Wissen zu erweitern. Mein Ziel ist es, künftig auch im Backend-Bereich tätig zu sein. Als nächsten Schritt plane ich, die Programmiersprache Java zu erlernen.</p>
+        <ul class="facts">
+          <li>Standort: Bayern, DE</li>
+          <li>Fokus: Frontend (HTML, CSS, JS, Vue) + Grundkenntnisse im Backend (PHP, SQL)</li>
+          <li>Sprachkenntnisse: D (B2/C1) / EN (A1 – wird derzeit weiter verbessert) / SR (Muttersprache)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="kontakt" class="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Kontakt</h2>
+        <address>
+          <a href="mailto:stevanaleksandrov@gmail.com">stevanaleksandrov@gmail.com</a> ·
+          <a href="tel:+491623463442">+49 162 34 63 442</a>
+        </address>
+        <p>Am besten per E-Mail erreichbar.</p>
+      </div>
+    </section>
+
+    <!-- CERTS -->
+    <section id="certs" class="certs" aria-labelledby="certs-title">
+      <div class="container">
+        <h2 id="certs-title">Zertifikate</h2>
+        <ul class="cert-list">
+          <li>
+            <article class="cert">
+              <h3>ILS - Webentwickler (PR 186)</h3>
+              <a href="./docs/ILS.pdf" class="btn btn--ghost">Zertifikat ansehen</a>
+            </article>
+          </li>
+          <li>
+            <article class="cert">
+              <h3>Anerkennung - Elektroniker für Informations- und Systemtechnik</h3>
+              <a href="./docs/Aleksandrov_Anerkennung_250929_193529.pdf" class="btn btn--ghost">Diplom ansehen</a>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LINKS -->
+    <section id="links" class="links" aria-labelledby="links-title">
+      <div class="container">
+        <h2 id="links-title">Links</h2>
+        <ul class="social">
+          <li><a href="https://github.com/tvoj-nalog" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/tvoj-profil" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="./docs/Stevan_Aleksandrov_Lebenslauf.pdf" download>PDF-Lebenslauf</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <a class="btn_back" href="./console.html">↩︎ Zurück zur console</a>
+  </footer>
+</body>
+</html>
