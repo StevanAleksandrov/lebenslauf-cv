@@ -40,45 +40,83 @@
       </div>
     </section>
 
-    <!-- FEATURED PROJECT -->
+<!-- FEATURED PROJECT -->
     <section class="featured" aria-labelledby="proj-title">
       <div class="container">
         <h2 id="proj-title" class="proj-title">Ausgewähltes Projekt</h2>
 
-        <article class="project-card">
-          <figure class="project-media">
-            <video class="project-video"
-          controls
-          preload="metadata"
-          poster="./img/Leonal_img.png"
-          playsinline
-          aria-describedby="leonal-caption">
-              <source src="./video/Video_Leonal.mp4" type="video/mp4">
-              <img src="./img/Leonal_img.png" alt="Screenshot der Leonal Firmenwebsite">
-            </video>
-            <figcaption id="leonal-caption" class="visually-hidden">
-              Kurzes UI-Demo-Video der Leonal-Seite (Scroll & Navigation).
-            </figcaption>
-          </figure>
+<section class="featured" id="projects">
+  <div class="container">
 
-          <div class="project-body">
-            <h3>Leonal - Küchenmontage & Transporte (KMU Website)</h3>
-            <p>Responsive Unternehmensseite (DE) mit Fokus auf Geschwindigkeit, klare CTAs und SEO-Basics.
-            Enthält Kontaktinfos, Google Maps und Leistungsübersicht.</p>
-            <p class="note">Status: In Arbeit — Seite noch nicht fertig.</p>
+    <!-- Projekt 1: Leonal -->
+     
+    <article class="project-card">
+      <figure class="project-media">
+        <video class="project-video"
+        controls
+        preload="metadata"
+        poster="./img/Leonal_img.png"
+        playsinline
+        aria-describedby="leonal-caption">
+        <source src="./video/Video_Leonal.mp4" type="video/mp4">
+        <img src="./img/Leonal_img.png" alt="Screenshot der Leonal Firmenwebsite">
+        </video>
+        <figcaption id="leonal-caption" class="visually-hidden">
+          Kurzes UI-Demo-Video der Leonal-Seite (Scroll & Navigation).
+        </figcaption>
+      </figure>
 
-            <ul class="tags">
-              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>SEO</li>
-            </ul>
+      <div class="project-body">
+        <h3>Leonal - Küchenmontage & Transporte (KMU Website)</h3>
+        <p>Responsive Unternehmensseite (DE) mit Fokus auf Geschwindigkeit, klare CTAs und SEO-Basics.
+        Enthält Kontaktinfos, Google Maps und Leistungsübersicht.</p>
+        <p class="note">Status: In Arbeit — Seite noch nicht fertig.</p>
 
-            <div class="project-links">
-              <a href="#" class="btn btn--primary">Live ansehen</a>
-              <a href="#" class="btn btn--ghost">Code auf GitHub</a>
-            </div>
-          </div>
-        </article>
+        <ul class="tags">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>SEO</li>
+        </ul>
+
+        <div class="project-links">
+          <a href="#" class="btn btn--primary">Live ansehen</a>
+          <a href="#" class="btn btn--ghost">Code auf GitHub</a>
+        </div>
       </div>
-    </section>
+    </article>
+
+    <!-- Projekt 2: To-Do Liste -->
+    <article class="project-card">
+      <figure class="project-media">
+        <img src="./img/to-do_Vue.jpg" alt="Screenshot der Vue.js To-Do Listen App">
+        <figcaption class="visually-hidden">
+          Screenshot der To-Do Listen App, erstellt mit Vue.js.
+        </figcaption>
+      </figure>
+
+      <div class="project-body">
+        <h3>To-Do Liste App (Vue.js)</h3>
+        <p>Kleine Übungsanwendung, erstellt im Rahmen meiner Weiterbildung zum geprüften Webentwickler (ILS).
+          Aufgaben können hinzugefügt, erledigt und gelöscht werden – mit Speicherung im Browser.</p>
+
+        <ul class="tags">
+          <li>Vue.js</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <div class="project-links">
+          <a href="https://stevanaleksandrov.github.io/vue-todo-app/" target="_blank" class="btn btn--primary">Live ansehen</a>
+          <a href="https://github.com/StevanAleksandrov/vue-todo-app" target="_blank" class="btn btn--ghost">Code auf GitHub</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
 
     <!-- ABOUT -->
     <section id="about" class="about" aria-labelledby="about-title">

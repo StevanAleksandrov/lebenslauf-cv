@@ -4,7 +4,7 @@
   --text: #d6ffe9;
   --muted: #8bd9b8;
   --acc: #00ff88;          
-  --acc-contrast: #0b1f17; /* tekst preko acc pozadine */
+  --acc-contrast: #0b1f17; 
   --border: rgba(0, 255, 136, 0.25);
   --focus: #00ff88;
 
@@ -409,6 +409,18 @@ a:not(.btn){ color: var(--acc); }
     grid-template-columns: minmax(0,1.6fr) minmax(0,1fr);
   }
 }
+.project-media > img,
+.project-media > video,
+.project-video{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border-radius: calc(var(--radius) - 4px);
+  outline: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  object-fit: cover;
+}
 
 h2{
   margin: 0 0 1rem 0;
@@ -418,6 +430,7 @@ h3{
   margin: 0 0 .5rem 0;
   font-size: clamp(1.1rem, 2vw, 1.3rem);
 }
+
 /* tags + note */
 .tags{
   display: flex;
@@ -566,6 +579,9 @@ h3{
   border-color: var(--acc);
   text-decoration: none;
 }
-.btn_back:active{ transform: translateY(1px); }
+.btn_back:active{ 
+  transform: translateY(1px); 
+}
+
 
 
